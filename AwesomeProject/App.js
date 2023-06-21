@@ -3,8 +3,8 @@ import{ View, StyleSheet } from'react-native';
 
 import LittleLemonHeader from './LittleLemonHeader';
 import LittleLemonFooter from './LittleLemonFooter';
-//import MenuItems from './MenuItems';
-import WelcomeScreen from "./WelcomeScreen";
+import MenuItems from './MenuItems';
+//import WelcomeScreen from "./WelcomeScreen";
 
 
 export default function App() {
@@ -13,11 +13,11 @@ return (
 <View style={styles.container}>
         <LittleLemonHeader />
         <MenuItems />
-        <WelcomeScreen/>
+        {/* <WelcomeScreen/> */}
       </View>
-      <View style={styles.footerContainer}>
+      {/* <View style={styles.footerContainer}>
         <LittleLemonFooter />
-      </View>
+      </View> */}
  </>
  );
 }
